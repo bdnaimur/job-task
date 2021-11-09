@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sideBar_bg{
+  background-color: #ff9900;
+  min-height: 480px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sideBar_logo{
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 4px;
+  height: 15px;
+  width: 15px;
+  background-color: #006699;
+  border: 2px solid white;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.body_head{
+  color: #00689d;
+  padding: 20px 20px;
+  font-weight: 700;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body_icon{
+  font-size: 25px;
+  color: #feaf17;
+  margin-right : 10px;
+}
+.body_content{
+  margin: 0 50px;
+}
+.body_content div{
+  margin: 5px 0;
+}
+.company_name{
+  padding: 0px 20px 20px 30px;
+  background-image: linear-gradient(to right, #ffe8c6, white);
+}
+.company_name h3{
+  font-weight: 700;
+  padding: 10px;
+  font-size: 40px;
+}
+.slogan{
+  padding: 10px;
+  font-size: 20px;
+  color: #fe9901;
+  font-weight: 700;
+}
+.image_div{
+  margin-top: -10px;
+  height: 150px;
+  width: 250px;
+  border: 1px solid white;
+}
+.image_div img{
+  width: 100%;
+  height: 100%;
+}
+.col-md-6, .col-md-3, .col-md-8{
+  padding: 0;
+  margin: 0;
+}
+.image_gallery{
+  margin-top: 85px;
+}
+.navbar-nav a {
+  padding: 15px 20px 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.menu-button4 a:hover{
+  background-color: #ff9900;
+  color: #000014; 
+}
+ .drpodown-menu{
+   display: none;
+   position: absolute;
+   top: 61px;
+   left: 5px;
+   background-color: #f9f9f9;
+   z-index: 1;
+ }
+ .drpodown-menu a{
+   font-size: 15px;
+   padding-bottom: 10px;
+   background-color: #006699 ;
+   color: whitesmoke;
+   display: block;
+   min-width: 140px;
+ }
+ .menu-button4{
+  position: relative;
+ }
+ .menu-button4:hover .drpodown-menu{
+   display: block;
+  
+ }
+.colored-text{
+  color: #fe9901;
 }

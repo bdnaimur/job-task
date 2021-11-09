@@ -1,0 +1,12 @@
+.navStyle{
+    background-image: linear-gradient(#046da4, #51a0c7 40%, #046da4)
+}
+.row_style{
+    background-image: linear-gradient(#ffcc33,  #ff9900 30%);;
+}
+.nav_link{
+    color: white;
+}
+.nav_link:hover{
+    color: white;
+}

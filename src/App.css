@@ -115,7 +115,6 @@ a.menu-button4 a:hover{
   border: 0px solid transparent ;
 }
 
-
 @media (max-width: 1024px) { 
   .navbar-nav a {
     font-size: 14px;
@@ -124,7 +123,6 @@ a.menu-button4 a:hover{
   .image_gallery{
     padding-top: 75px;
   }
-
  }
  @media (max-width: 768px) {
    .navbar{
@@ -134,14 +132,15 @@ a.menu-button4 a:hover{
    .image_gallery{
     padding-top: 75px;
   }
-
  }
  @media (max-width: 425px) {
   .navbar{
     display: block;
   }
   .image_div img{
-    /* display: block; */
     width: 100%;
+  }
+  .body_content div{
+    margin: 20px 10px !important;
   }
  }

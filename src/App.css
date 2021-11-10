@@ -79,6 +79,7 @@ body{
 a.menu-button4 a:hover{
   background-color: #ff9900;
   color: #000014; 
+  transition: .4s ease-out;
 }
  .drpodown-menu{
    display: none;
@@ -101,8 +102,9 @@ a.menu-button4 a:hover{
  }
  .menu-button4:hover .drpodown-menu{
    display: block;
-  
+   transition: display 1.5s ease-in-out;
  }
+
 .colored-text{
   color: #fe9901;
 }

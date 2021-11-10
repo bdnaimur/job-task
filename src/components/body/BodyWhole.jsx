@@ -6,10 +6,10 @@ const BodyWhole = () => {
     return (
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-3">
+                <div className="col-lg-3 col-md-12">
                     <Sidebar/>
                 </div>
-                <div className="col-md-9">
+                <div className="col-lg-9 col-md-12">
                     <Body/>
                 </div>
             </div>

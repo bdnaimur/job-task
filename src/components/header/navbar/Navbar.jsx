@@ -4,15 +4,16 @@ import styles from '../../../assets/style/Navbar.Module.css'
 import image1 from '../../../assets/images/flower1.jpeg'
 import image2 from '../../../assets/images/flower2.jpeg'
 import image3 from '../../../assets/images/flower4.jpeg'
+import { FaBars } from 'react-icons/fa';
 const Navbar = () => {
     return (
         <div className="container-fluid">
             <div className={`row pb-4 ${styles.navStyle}`}>
-                <div className={`col-md-6`}>
-                    <nav class="navbar navbar-expand-lg">
+                <div className={`col-lg-6 col-md-12`}>
+                    <nav class="navbar navbar-expand-md">
                         <div class="">
                             <button class="navbar-toggler bg-warning text-gray" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon "></span>
+                                <span class="navbar-toggler-icon "><FaBars/></span>
                             </button>
                             <div class={`collapse navbar-collapse`} id="navbarNav">
                                 <div class="navbar-nav">
@@ -37,8 +38,8 @@ const Navbar = () => {
                         <h6 className="slogan">Find your Future</h6>
                     </div>
                 </div>
-                <div className={`col-md-6 ${styles.row_style}`}>
-                    <div className="d-flex image_gallery">
+                <div className={`col-lg-6 col-md-12 ${styles.row_style}`}>
+                    <div className="d-flex image_gallery justify-content-around">
                         <div className="image_div">
                             <img src={image1} alt="iamge1" />
                         </div>
